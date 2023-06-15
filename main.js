@@ -60,7 +60,7 @@ function gotPoses(results)
 function startGame()
 {
    game_status ="start";
- //Update the h3 tag which we have created inside index.html file in project 138 who has id “status” to "Game Is Loaded”.
+ document.getElementById("status").innerHTML = "Game Is Loaded";
 }
 
 function draw(){
